@@ -1,0 +1,51 @@
+{
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "external_urls": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "spotify": {
+                    "type": "string"
+                }
+            }
+        },
+        "followers": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "href": {
+                    "type": ["string", "null"]
+                },
+                "total": {
+                    "type": "number"
+                }
+            }
+        },
+        "genres": {
+            "type": "array"
+        },
+        "href": {
+            "type": "string"
+        },
+        "id": {
+            "type": "string"
+        },
+        "images": {
+            "type":"array"
+        },
+        "name": {
+            "type": "string"
+        },
+        "popularity": {
+            "type": "number"
+        },
+        "type": {
+            "type": "string"
+        },
+        "uri": {
+            "type": "string"
+        }
+    }
+}
